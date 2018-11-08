@@ -1,43 +1,40 @@
-$ java SeptNains
-        Simplet veut un accès exclusif à la ressource
-                Simplet accède à la ressource.
-                Simplet a un accès exclusif à Blanche-Neige.
-        Timide veut un accès exclusif à la ressource
-        Grincheux veut un accès exclusif à la ressource
-        Joyeux veut un accès exclusif à la ressource
-        Prof veut un accès exclusif à la ressource
-        Atchoum veut un accès exclusif à la ressource
-        Dormeur veut un accès exclusif à la ressource
-                        Simplet relâche la ressource.
-        Simplet veut un accès exclusif à la ressource
-                Timide accède à la ressource.
-                Timide a un accès exclusif à Blanche-Neige.
-                Simplet accède à la ressource.
-                Simplet a un accès exclusif à Blanche-Neige.
-                        Timide relâche la ressource.
-                Prof accède à la ressource.
-                Prof a un accès exclusif à Blanche-Neige.
-                Joyeux accède à la ressource.
-                Joyeux a un accès exclusif à Blanche-Neige.
-                Atchoum accède à la ressource.
-                Atchoum a un accès exclusif à Blanche-Neige.
-                        Atchoum relâche la ressource.
-                Dormeur accède à la ressource.
-                Grincheux accède à la ressource.
-                Grincheux a un accès exclusif à Blanche-Neige.
-                Dormeur a un accès exclusif à Blanche-Neige.
-                        Joyeux relâche la ressource.
-                        Prof relâche la ressource.
-                        Simplet relâche la ressource.
-                        Dormeur relâche la ressource.
-                        Grincheux relâche la ressource.
-
-                        
+	Simplet veut un accès exclusif à la ressource
+		Simplet accède à la ressource.
+		Simplet a un accès exclusif à Blanche-Neige.
+	Dormeur veut un accès exclusif à la ressource
+	Atchoum veut un accès exclusif à la ressource
+	Joyeux veut un accès exclusif à la ressource
+	Grincheux veut un accès exclusif à la ressource
+	Prof veut un accès exclusif à la ressource
+	Timide veut un accès exclusif à la ressource
+			Simplet relâche la ressource.
+	Simplet veut un accès exclusif à la ressource
+		Dormeur accède à la ressource.
+		Dormeur a un accès exclusif à Blanche-Neige.
+			Dormeur relâche la ressource.
+	Dormeur veut un accès exclusif à la ressource
+		Atchoum accède à la ressource.
+		Atchoum a un accès exclusif à Blanche-Neige.
+			Atchoum relâche la ressource.
+	Atchoum veut un accès exclusif à la ressource
+		Joyeux accède à la ressource.
+		Joyeux a un accès exclusif à Blanche-Neige.
+			Joyeux relâche la ressource.
+	Joyeux veut un accès exclusif à la ressource
+		Grincheux accède à la ressource.
+		Grincheux a un accès exclusif à Blanche-Neige.
 Dormeur a terminé!
-Simplet a terminé!
-Timide a terminé!
 Joyeux a terminé!
+			Grincheux relâche la ressource.
 Grincheux a terminé!
-Prof a terminé!
+Simplet a terminé!
 Atchoum a terminé!
+		Prof accède à la ressource.
+		Prof a un accès exclusif à Blanche-Neige.
+			Prof relâche la ressource.
+Prof a terminé!
+		Timide accède à la ressource.
+		Timide a un accès exclusif à Blanche-Neige.
+			Timide relâche la ressource.
+Timide a terminé!
 C'est fini.
